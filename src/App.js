@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Login from './components/Login/login'
 
 function App() {
   return (
@@ -8,6 +8,8 @@ function App() {
       <h1>
         Hello World
       </h1>
+
+<Login/>
       
     </div>
   );
