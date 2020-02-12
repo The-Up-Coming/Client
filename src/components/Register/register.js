@@ -28,7 +28,10 @@ class Register extends Component {
       <div>
         
         <div className="container">
+          <div className="reg-border">
         <h2 className="reg">Register</h2>
+        </div>
+
         <div className="reg-card">
           <form className="regForm" onSubmit={this.onSubmit}>
             <p>First Name</p>
@@ -56,7 +59,7 @@ class Register extends Component {
               onChange={this.handleChange}
             ></input>
 
-<p>Password></p>
+<p>Password</p>
             <input
               type="text"
               name="confirmPassword"
