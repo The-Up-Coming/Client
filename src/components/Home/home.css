@@ -1,3 +1,10 @@
+* {
+    margin: 0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
+
+
 .main-head{
     background: #131c27;
 }
@@ -6,7 +13,7 @@ nav{
     display: flex;
     width: 90%;
     margin: auto;
-    padding: 2rem;
+    padding: 1rem;
     align-items: center;
     min-height: 10vh;
     min-height: 2rem;
@@ -15,15 +22,24 @@ nav{
 
 nav ul{
     display: flex;
-    flex:1 1 40rem; 
+    flex:1 1 30rem; 
     justify-content: space-around;
     align-items: center;
     list-style: none;
 }
 
+#logo{
+    flex:2 1 40rem;
+    align-items:center;
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    font-weight: 400;;
+
+}
 
 .hero{
     min-height: 90vh;
+    background:  linear-gradient(rgba(0,0,0, 0.5), transparent), url("N82781586-72086580.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,5 +50,6 @@ nav ul{
     align-items: center;
     text-align: center;
 }
+
 
 

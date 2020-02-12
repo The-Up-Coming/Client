@@ -10,7 +10,7 @@ class Home extends Component {
 
         <header class="main-head">
           <nav>
-            <h1 id="logo">One The Come Up</h1>
+            <h1 id="logo">On The Come Up</h1>
             <ul>
               <li>
                 <a href="#locations">Locations</a>
