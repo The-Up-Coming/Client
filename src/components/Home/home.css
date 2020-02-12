@@ -1,0 +1,38 @@
+.main-head{
+    background: #131c27;
+}
+
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    align-items: center;
+    min-height: 10vh;
+    min-height: 2rem;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    flex:1 1 40rem; 
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+.hero{
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+

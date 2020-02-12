@@ -1,16 +1,24 @@
-import React from 'react';
-import './App.css';
-import Register from './components/Register/register'
+import React from "react";
+import "./App.css";
+import Register from "./components/Register/register";
+import Home from "./components/Home/home";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-    
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Switch />
 
-<Register/>
-      
-    </div>
-  );
+        <Route path="/reg" exact>
+          <Register />
+        </Route>
+      </Router>
+    );
+  }
 }
 
 export default App;
